@@ -6,97 +6,57 @@
 }
 
 .Cabecera{
-    border: 5px solid black;
-    height: 15vh;
+    margin-left: 0.7ch;
+    margin-right: 0.7ch;
+    height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .Primero{
-    border: 1px solid yellow;
-    height: 13vh;
+    height: 10vh;
     width: 20vw;
     margin-bottom: 2vh;
-}
-
-.Menu{
-    border: 1px solid red;
-    display: inline-block;
-    height: 15vh;
-    width: 20vw;
-}
-
-.Flecha{
-    width: 30%;
-    display: inline-block;
-}
-
-.Back{
-    background-color: pink;
-    height: 13vh;
-    width: 68%;
-    align-items: center;
-    display: inline-block;
-}
-
-.texto_Back{
-    margin-right: 40%;
-    margin-left: 40%;
-
-}
-
-.texto1{
-    display: inline-block;
+    border: 1px solid black
     
 }
 
-.Boton_hamburguesa{
+.Flecha{
+    margin-left: 55%;
+    height: 13vh;
+}
+
+
+.Menu{
+    border: 1px solid black;
+    text-align: center;
+    height: 12vh;
+    width: 15vw;
+}
+
+.direccion{
     display: inline-block;
 }
 
 .Principal{
-    background-color: grey;
-}
-/* .Principal{
-    border: black;
-    border-width: 2px;
-    background-color: grey;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.cuadro_1{
-    display: inline-block;
-    background-color: aqua;
-    width: 2=30%;
-    height: 3em;
-    border: 1px solid red;
-    margin-right: -4px;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.cuadro_2{
-    display: inline-block;
-    background-color: white;
-    width: 50%;
-    height: 3em;
-    border: 1px solid yellow;
+.Principal_Abajo{
+    background-color: green;
+    height: 86vh;
+    margin-right: 10%;
+    margin-left: 10%;    
 }
 
+.Adentro_arriba{
+    background-color: grey;
+    height: 65vh;
+}
 
-.cuadro_3{
-    display: inline-block;
-    float: inline-end;
-    width: 20%;
-    height: 3em;
-    border: 1px solid blue;
-    margin-left: -4px;
-} */
-
-
-    
-
+.varios_iconos{
+    display: flex;
+}
 
 
