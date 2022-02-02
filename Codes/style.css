@@ -6,57 +6,112 @@
 }
 
 .Cabecera{
+    border: 1px solid green;
+    margin-top: 1vh;
     margin-left: 0.7ch;
     margin-right: 0.7ch;
     height: 12vh;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .Primero{
     height: 10vh;
     width: 20vw;
     margin-bottom: 2vh;
-    border: 1px solid black
-    
+    border: 1px solid black;
+    background-color: red;
+}
+
+.centrar_verticalmente{
+    display: flex;
+    align-items: center;
 }
 
 .Flecha{
     margin-left: 55%;
-    height: 13vh;
 }
 
 
 .Menu{
+    background-color: yellow;
     border: 1px solid black;
     text-align: center;
     height: 12vh;
-    width: 15vw;
+    width: 13vw;
 }
 
 .direccion{
     display: inline-block;
 }
 
-.Principal{
-    margin-top: 10px;
-}
-
 .Principal_Abajo{
     background-color: green;
     height: 86vh;
-    margin-right: 10%;
-    margin-left: 10%;    
+    margin-right: 5%;
+    margin-left: 5%;    
 }
 
-.Adentro_arriba{
+.Numero5{
     background-color: grey;
+    margin-top: 1vh;
     height: 65vh;
+    width: 100%;
+}
+
+.numero10{
+    width: 300%;
 }
 
 .varios_iconos{
     display: flex;
 }
 
+.fas fa-bars{
+    size: 20px;
+}
 
+.Cuadro{
+    border: 1px solid black;
+}
+
+.boton_redondo{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.boton{
+    text-align: center;
+    background-color: red;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.numero1{
+    background-color: darkblue;
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.numero3{
+    display: flex;
+    background-color: chartreuse;
+    width: 60%;
+    height: 10%;
+    
+}
+
+.numero9{
+    border: 1px solid black;
+    height: 100%;
+    width: 10%;
+}
+
+.numero10{
+    margin-left: auto;
+    margin-right: auto;
+}
