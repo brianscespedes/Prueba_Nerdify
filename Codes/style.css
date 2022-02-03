@@ -1,117 +1,214 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-.cuerpo{
+.cuerpo {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
 }
 
-.Cabecera{
-    border: 1px solid green;
+.Cabecera {
+    margin-right: 5px;
+    margin-left: 5px;
     margin-top: 1vh;
-    margin-left: 0.7ch;
-    margin-right: 0.7ch;
     height: 12vh;
     justify-content: space-between;
-    
+
 }
 
-.Primero{
+.Primero {
     height: 10vh;
-    width: 20vw;
+    width: 17vw;
     margin-bottom: 2vh;
-    border: 1px solid black;
-    background-color: red;
+    margin-left: 0px;
+    text-align: end;
 }
 
-.centrar_verticalmente{
+/*Estilos reutilizados*/
+
+.centrar_verticalmente {
     display: flex;
     align-items: center;
 }
 
-.Flecha{
-    margin-left: 55%;
+.Back {
+    margin-right: 30px;
 }
 
-
-.Menu{
-    background-color: yellow;
-    border: 1px solid black;
+.Menu {
     text-align: center;
     height: 12vh;
     width: 13vw;
+    padding-left: 20px;
 }
 
-.direccion{
+.direccion {
     display: inline-block;
 }
 
-.Principal_Abajo{
-    background-color: green;
-    height: 86vh;
-    margin-right: 5%;
-    margin-left: 5%;    
+.Principal {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.Numero5{
-    background-color: grey;
+.Numero5 {
     margin-top: 1vh;
-    height: 65vh;
+    height: 60vh;
     width: 100%;
 }
 
-.numero10{
+.numero10 {
     width: 300%;
 }
 
-.varios_iconos{
-    display: flex;
-}
-
-.fas fa-bars{
+.fas fa-bars {
     size: 20px;
 }
 
-.Cuadro{
+.boton {
+    width: 30%;
+    height: 80%;
     border: 1px solid black;
 }
 
-.boton_redondo{
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 5px;
-    margin-left: 10px;
+.boton_principal {
+    font-size: 25px;
 }
 
-.boton{
-    text-align: center;
-    background-color: red;
-    width: 45%;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-
-.numero1{
-    background-color: darkblue;
-    margin-top: 5vh;
+.texto_boton {
+    font-size: 10px;
+    font-weight: 600;
     width: 100%;
 }
 
-.numero3{
-    display: flex;
-    background-color: chartreuse;
-    width: 60%;
-    height: 10%;
-    
+.espacio_izquierda {
+    margin-left: 10px;
 }
 
-.numero9{
+
+.contenedor_boton_pricipal {
+    text-align: end;
+    align-items: flex-end;
+}
+
+.nombre {
+    margin-top: 10%;
+    width: 100%;
+    height: 35vh;
+    /*background-color: violet;*/
+}
+
+.numero1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.Texto_Principal {
+    /*background-color: cornflowerblue;*/
+    height: 60%;
+    margin-bottom: 20px;
+    /*background-color: yellow;*/
+}
+
+.seccion_botones {
+    width: 50%;
+    height: 30%;
+    /*background-color: aqua;*/
+
+}
+
+.numero9 {
+    height: 100%;
+    width: 20%;
+}
+
+.numero10 {
+    text-align: center;
+}
+
+.texto3 {
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-weight: 800;
+}
+
+.verde_abajo {
+    height: 5%;
+}
+
+.Principal_Abajo {
+    margin-left: 5%;
+    margin-right: 5%;
+    /*background-color: tomato;*/
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+
+.Texto1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+.Texto2 {
+    font-size: 20px;
+}
+
+.texto4 {
+    /*background-color: blue;*/
+    width: 60%;
+    margin-left: 10%;
+}
+
+
+/*Neo fecture*/
+
+/*Parte Inferior Neo fectures*/
+.Adentro_abajo {
+    height: 11vh;
+    /*background-color: red;*/
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    /*background-color: hotpink;*/
+    margin-left: 4%;
+    padding-left: 0px;
+    margin-right: 4%;
+}
+
+li {
+    /*background-color: #F6E3CA;*/
+    text-align: center;
+    width: 3em;
+    border-radius: 50%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 2px ;
+}
+
+.hijo{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.boton_redondo {
     border: 1px solid black;
     height: 100%;
-    width: 10%;
-}
-
-.numero10{
+    width: 15%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+
+.contenedor_lista{
+    /*background-color: green;*/
+    width: 65%;
 }
