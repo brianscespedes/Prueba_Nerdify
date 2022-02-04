@@ -11,7 +11,6 @@
     margin-top: 1vh;
     height: 12vh;
     justify-content: space-between;
-
 }
 
 .Primero {
@@ -63,11 +62,7 @@
     size: 20px;
 }
 
-.boton {
-    width: 30%;
-    height: 80%;
-    border: 1px solid black;
-}
+
 
 .boton_principal {
     font-size: 25px;
@@ -109,11 +104,21 @@
     /*background-color: yellow;*/
 }
 
-.seccion_botones {
-    width: 50%;
-    height: 30%;
-    /*background-color: aqua;*/
+/*================== Botones ==================*/
+.boton {
+    width: 47.5%;
+    height: 55px;
+    box-shadow: blanchedalmond;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 14px 30px 8px rgba(0, 0, 0, 0.05);
+    
+}
 
+.seccion_botones {
+    
+    width: 50%;
+    height: 55px;
+    justify-content: space-between;
 }
 
 .numero9 {
@@ -187,10 +192,10 @@ li {
     display: flex;
     align-items: center;
     border: 1px solid black;
-    margin-left: 2px ;
+    margin-left: 2px;
 }
 
-.hijo{
+.hijo {
     margin-right: auto;
     margin-left: auto;
 }
@@ -208,7 +213,7 @@ li {
 }
 
 
-.contenedor_lista{
+.contenedor_lista {
     /*background-color: green;*/
     width: 65%;
 }
