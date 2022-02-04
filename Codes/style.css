@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-.cuerpo {
-    margin: 0;
-    padding: 0;
-}
-
-.Cabecera {
+.NavBar {
+    display: flex;
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 1vh;
@@ -13,12 +9,33 @@
     justify-content: space-between;
 }
 
-.Primero {
+/* Boton de regreso Back */
+
+.Back{
+    display:flex;
     height: 10vh;
-    width: 17vw;
-    margin-bottom: 2vh;
-    margin-left: 0px;
-    text-align: end;
+    width: 15vw;
+}
+
+.sombra{
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 14px 30px 8px rgba(0, 0, 0, 0.05);
+}
+
+.Flecha{
+    width: 80%;
+    margin-left: 5px;
+    width: 40px;
+    height: 37px;
+    margin-left: auto;
+}
+
+.icono_flecha{
+    font-size: 25px;
+}
+
+.texto_back{
+    margin-right: 15px;
 }
 
 /*Estilos reutilizados*/
@@ -28,19 +45,52 @@
     align-items: center;
 }
 
-.Back {
-    margin-right: 30px;
+.direccion {
+    display: inline-block;
 }
 
+
+/*Botones de Menu*/
 .Menu {
-    text-align: center;
+    display:flex;
     height: 12vh;
-    width: 13vw;
+    width: 10vw;
     padding-left: 20px;
 }
 
-.direccion {
-    display: inline-block;
+/* Barras */
+
+.contenedor{
+    margin-left: 10px;
+    width: 40px;
+    height: 37px;
+}
+
+.barra1{
+    width: 100%;
+    height: 6px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.barra2{
+    width: 50%;
+    height: 6px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.barra3{
+    width: 75%;
+    height: 6px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: auto;
+    margin-top: 5px;
 }
 
 .Principal {
@@ -58,67 +108,51 @@
     width: 300%;
 }
 
-.fas fa-bars {
-    size: 20px;
-}
 
+/*================== Parte central de la Pagina ==================*/
 
-
-.boton_principal {
-    font-size: 25px;
-}
-
-.texto_boton {
-    font-size: 10px;
-    font-weight: 600;
-    width: 100%;
-}
-
-.espacio_izquierda {
-    margin-left: 10px;
-}
-
-
-.contenedor_boton_pricipal {
-    text-align: end;
-    align-items: flex-end;
-}
-
-.nombre {
-    margin-top: 10%;
+.nombre{
+    margin-top: 100px;
     width: 100%;
     height: 35vh;
-    /*background-color: violet;*/
+    background-color: violet;
 }
 
 .numero1 {
     width: 100%;
     height: 100%;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 .Texto_Principal {
-    /*background-color: cornflowerblue;*/
+    background-color: cornflowerblue;
     height: 60%;
-    margin-bottom: 20px;
-    /*background-color: yellow;*/
 }
 
 /*================== Botones ==================*/
 .boton {
-    width: 47.5%;
+    background-color: red;
+    /* width: 47.5%; */
+    width: 190px;
     height: 55px;
-    box-shadow: blanchedalmond;
-    border: 1px solid rgba(0, 0, 0, 0.02);
-    box-shadow: 0px 14px 30px 8px rgba(0, 0, 0, 0.05);
-    
 }
 
 .seccion_botones {
-    
     width: 50%;
     height: 55px;
     justify-content: space-between;
+}
+
+.contenedor_boton_pricipal{
+    font-size: 35px;
+    background-color: green;
+}
+
+.texto_boton {
+    background-color: lightgrey;
+    font-size: 12px;
+    font-weight: 800;
+    width: 100%;
 }
 
 .numero9 {
@@ -140,14 +174,14 @@
     height: 5%;
 }
 
+
+/* Div General de la pagina*/
 .Principal_Abajo {
     margin-left: 5%;
     margin-right: 5%;
-    /*background-color: tomato;*/
     padding-left: 10vh;
     padding-right: 10vh;
 }
-
 
 .Texto1 {
     font-size: 40px;
@@ -165,55 +199,39 @@
     margin-left: 10%;
 }
 
-
 /*Neo fecture*/
-
 /*Parte Inferior Neo fectures*/
-.Adentro_abajo {
-    height: 11vh;
-    /*background-color: red;*/
+
+.barra_iconos{
     display: flex;
+    background-color: red;
+    width: 450px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-ul {
-    list-style-type: none;
-    /*background-color: hotpink;*/
-    margin-left: 4%;
-    padding-left: 0px;
-    margin-right: 4%;
+.contenedor_iconos{
+    display: flex;
+    height: 55px;
 }
 
-li {
-    /*background-color: #F6E3CA;*/
-    text-align: center;
-    width: 3em;
-    border-radius: 50%;
-    height: 3em;
-    display: flex;
-    align-items: center;
+.boton_inferior{
+    background-color: chartreuse;
+    width: 190px;
+    margin-left: 15px;
+}
+
+/* Iconos */
+
+.icono_inferior{
     border: 1px solid black;
-    margin-left: 2px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
 }
 
-.hijo {
+.icono_flecha{
     margin-right: auto;
     margin-left: auto;
-}
-
-.boton_redondo {
-    border: 1px solid black;
-    height: 100%;
-    width: 15%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-
-.contenedor_lista {
-    /*background-color: green;*/
-    width: 65%;
 }
